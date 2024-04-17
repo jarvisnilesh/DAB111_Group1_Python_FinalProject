@@ -16,7 +16,7 @@ This is a python project to display data from a SQLite database via a website.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jaspreetsinghsain/group5_flask_project
+    git clone https://github.com/jarvisnilesh/DAB111_Group1_Python_FinalProject
     ```
 
 2. Navigate to the project directory:
