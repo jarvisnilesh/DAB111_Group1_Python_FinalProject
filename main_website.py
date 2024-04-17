@@ -5,7 +5,6 @@ import pathlib
 base_path = pathlib.Path(r'C:\Users\Ganesh G Kokulwar\OneDrive\Desktop\DAB111\Python_Final_Project')
 db_name = "movie_gross.db"
 db_path = base_path / db_name
-print(db_path)
 
 app = Flask(__name__)
 
