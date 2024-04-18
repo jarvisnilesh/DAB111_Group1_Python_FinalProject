@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f1;
+            }
+            h1 {
+            text-align: center;
+            color: #8d0bea;
+            }
+            p {
+            text-align: center;
+            color: #0a30ed;
+            font-size: 18px;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+                margin-top: 20px;
+            }
+            li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+            a {
+            color: #e6920b;
+            text-decoration: none;
+            }
+            a:hover {
+            text-decoration: underline;
+            }
+
+        </style>
+        <title>Main Website</title>
+        
+    </head>
+    <body>
+        <h1>Welcome to our Awesome Website! Happy Surfing! </h1>
+        <p>Choose where you want to go:</p>
+        <ul>
+            <li><a href="{{ url_for('about') }}">Link To About Page</a></li>
+            <li><a href="{{ url_for('data') }}">Link To Data Page</a></li>
+        </ul>
+    </body>
+</html>
