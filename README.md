@@ -13,25 +13,25 @@ This is a python project to display data from a SQLite database via a website.
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the main Git Repository:
 
     ```bash
     git clone https://github.com/jarvisnilesh/DAB111_Group1_Python_FinalProject
     ```
 
-2. Navigate to the project directory:
+2. Project Directory:
 
     ```bash
-    cd flask-project
+    DAB111_Group1_Python_FinalProject
     ```
 
-3. Install the required packages:
+3. Installing the required from txt file:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Run the Flask application:
+4. Run the main website designed using flask application:
 
     ```bash
     python main_website.py
