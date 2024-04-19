@@ -22,7 +22,7 @@ def create_db():
 
     cursor.execute(create_table)
 
-    with open(r"C:\Users\Ganesh G Kokulwar\OneDrive\Desktop\DAB111\Python_Final_Project\moviedetails.csv") as f:
+    with open("moviedetails.csv") as f:
         data = csv.reader(f)
 
 
