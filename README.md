@@ -25,7 +25,7 @@ This is a python project to display data from a SQLite database via a website.
     DAB111_Group1_Python_FinalProject
     ```
 
-3. Installing the required from txt file:
+3. Installing the required packages from .txt file:
 
     ```bash
     pip install -r requirements.txt
